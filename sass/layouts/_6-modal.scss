@@ -60,10 +60,10 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-&:hover,
-&:focus {
-  fill: $active-color;
-}
+  &:hover,
+  &:focus {
+    fill: $active-color;
+  }
 }
 .modal__title {
   margin-bottom: 12px;
@@ -132,10 +132,10 @@
   
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-&:focus {
-  border-color: $active-color;
-  cursor: pointer;
-}
+  &:focus {
+    border-color: $active-color;
+    cursor: pointer;
+  }
 }
 
 .modal__input::placeholder {

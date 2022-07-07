@@ -18,10 +18,10 @@
   border-radius: 4px;
   color: #afb1b8;
 
-&:hover {
-  color: $active-color;
-  border: solid 1px $active-color;
-}
+  &:hover {
+    color: $active-color;
+    border: solid 1px $active-color;
+  }
 }
 .client__icon {
   fill: currentColor;
